@@ -56,7 +56,7 @@ public class MainActivity extends AppCompatActivity implements OnContactClickLis
 
     private void createContactList() {
         // Thêm contacts với một số contacts yêu thích
-        contactList.add(new Contact("Nguyễn Văn A", "0123 456 789", "01/11/2025", R.drawable.hieu, true));
+        contactList.add(new Contact("Võ Nguyễn Đại Hiếu", "0123 456 789", "01/11/2025", R.drawable.hieu, true));
         contactList.add(new Contact("Trần Thị B", "0987 654 321", "31/10/2025", R.drawable.logokhoa, true));
         contactList.add(new Contact("Lê Văn C", "0912 345 678", "30/10/2025", R.drawable.logotruong, false));
         contactList.add(new Contact("Phạm Thị D", "0909 876 543", "29/10/2025", R.drawable.flower2, true));
